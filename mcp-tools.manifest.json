@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "mcp_id": "webcam-capture-mcp",
+  "title": "Webcam Capture MCP",
+  "tools": [
+    {
+      "name": "capture_webcam_frame",
+      "description": "Сделать снимок с веб-камеры по явному запросу. Сохраняет изображение в workspace (по умолчанию .cascade-ide/webcam-captures) и возвращает JSON с путём и параметрами кадра."
+    },
+    {
+      "name": "capture_webcam_burst",
+      "description": "Сделать быструю серию кадров с веб-камеры. Сохраняет кадры в подпапку внутри workspace и (опционально) собирает короткий видеофайл."
+    },
+    {
+      "name": "capture_screen_burst",
+      "description": "Сделать быструю серию кадров с экрана. Сохраняет кадры в подпапку внутри workspace и (опционально) собирает короткий видеофайл."
+    },
+    {
+      "name": "capture_audio_burst",
+      "description": "Записать короткий аудиофрагмент с микрофона в WAV по явной команде. Сохраняет файл в workspace (по умолчанию .cascade-ide/audio-captures)."
+    },
+    {
+      "name": "capture_av_burst",
+      "description": "Одновременная запись короткой A/V-сессии: кадры с веб-камеры + WAV с микрофона + метаданные синхронизации."
+    },
+    {
+      "name": "capture_screen_av_burst",
+      "description": "Одновременная запись короткой A/V-сессии: кадры с экрана + WAV с микрофона + метаданные синхронизации."
+    }
+  ]
+}

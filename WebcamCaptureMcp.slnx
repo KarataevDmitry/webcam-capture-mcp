@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="WebcamCaptureMcp.csproj" />
+  <Project Path="WebcamCaptureMcp.Tests/WebcamCaptureMcp.Tests.csproj" />
+</Solution>
