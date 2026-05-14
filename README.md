@@ -1,5 +1,7 @@
 # webcam-capture-mcp
 
+Лицензия: **MIT** — см. [LICENSE](LICENSE).
+
 MCP-сервер **только захвата**: веб-камера, экран, микрофон, A/V-сессии (камера+звук, экран+звук). Windows, `stdio`, self-contained `win-x64`.
 
 ## Зависимости

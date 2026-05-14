@@ -11,6 +11,7 @@
     <Nullable>enable</Nullable>
     <RootNamespace>WebcamCaptureMcp</RootNamespace>
     <AssemblyName>WebcamCaptureMcp</AssemblyName>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
